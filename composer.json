@@ -1,0 +1,30 @@
+{
+    "name": "alex/laravel-weather-api",
+    "description": "A Laravel Weather API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alex\\LaravelWeatherApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "astevens-ai",
+            "email": "stevens_alexander@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alex\\WeatherApi\\WeatherApiServiceProvider"
+            ]
+        }
+    }
+}
