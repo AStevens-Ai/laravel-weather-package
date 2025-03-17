@@ -1,5 +1,5 @@
 {
-    "name": "alex/laravel-weather-api",
+    "name": "astevens-ai/laravel-weather-api",
     "description": "A Laravel Weather API",
     "type": "library",
     "license": "MIT",
@@ -14,7 +14,8 @@
             "email": "stevens_alexander@icloud.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^8.0",
         "laravel/framework": "^10.0",
